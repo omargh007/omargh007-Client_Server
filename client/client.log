@@ -1,0 +1,669 @@
+2025-04-28 04:08:31,041 - INFO - File ORGAN (1).docx saved locally.
+2025-04-28 04:08:31,064 - INFO - Upload finished for ORGAN (1).docx: SUCCESS@ORGAN (1).docx@0@1
+2025-04-28 04:08:36,977 - INFO - Delete response: OK@File deleted successfully.
+2025-04-28 04:08:36,978 - INFO - File ORGAN (1).docx deleted successfully.
+2025-04-28 04:12:14,149 - INFO - C:\Users\USP\Desktop\client_server_final\client_server-main\client_server-main\client\client_app\urls.py changed, reloading.
+2025-04-28 04:12:27,961 - INFO - Establishing new server connection...
+2025-04-28 04:12:27,969 - INFO - Connected to server. Welcome message: b'OK@Welcome to the File Server.'
+2025-04-28 04:15:12,846 - INFO - File test.txt saved locally.
+2025-04-28 04:15:12,852 - INFO - Upload finished for test.txt: SUCCESS@test.txt@0@1
+2025-04-28 04:15:25,986 - INFO - File test.txt saved locally.
+2025-04-28 04:15:25,997 - INFO - Upload finished for test.txt: SUCCESS@test_v1.txt@1@2
+2025-04-28 04:16:08,558 - INFO - File test.txt saved locally.
+2025-04-28 04:16:08,577 - INFO - Upload finished for test.txt: SUCCESS@test_v2.txt@2@3
+2025-04-28 04:16:35,834 - INFO - File test.txt saved locally.
+2025-04-28 04:16:35,847 - INFO - Upload finished for test.txt: SUCCESS@test_v3.txt@3@4
+2025-04-28 04:16:42,854 - INFO - File test.txt downloaded successfully.
+2025-04-28 04:16:50,099 - INFO - File test_v3.txt downloaded successfully.
+2025-04-28 04:17:08,072 - INFO - File test.txt downloaded successfully.
+2025-04-28 04:17:13,648 - INFO - File test_v3.txt downloaded successfully.
+2025-04-28 04:17:19,908 - INFO - Delete response: OK@File deleted successfully.
+2025-04-28 04:17:19,909 - INFO - File test_v3.txt deleted successfully.
+2025-04-28 04:17:24,075 - INFO - Delete response: OK@File deleted successfully.
+2025-04-28 04:17:24,076 - INFO - File test_v2.txt deleted successfully.
+2025-04-28 04:17:25,789 - INFO - Delete response: OK@File deleted successfully.
+2025-04-28 04:17:25,790 - INFO - File test_v1.txt deleted successfully.
+2025-04-28 04:17:27,489 - INFO - Delete response: OK@File deleted successfully.
+2025-04-28 04:17:27,490 - INFO - File test.txt deleted successfully.
+2025-04-28 04:18:22,503 - INFO - File omar.txt saved locally.
+2025-04-28 04:18:22,516 - INFO - Upload finished for omar.txt: SUCCESS@omar.txt@0@1
+2025-04-28 04:18:26,638 - INFO - File omar.txt downloaded successfully.
+2025-04-28 04:18:55,819 - INFO - File omar.txt saved locally.
+2025-04-28 04:18:55,849 - INFO - Upload finished for omar.txt: SUCCESS@omar_v1.txt@1@2
+2025-04-28 04:19:01,605 - INFO - File omar_v1.txt downloaded successfully.
+2025-04-28 04:19:06,297 - INFO - File omar.txt downloaded successfully.
+2025-04-28 04:29:14,671 - INFO - Connection idle for 600 seconds, disconnecting...
+2025-04-28 04:29:14,673 - INFO - Sending LOGOUT command to server...
+2025-04-28 04:29:14,677 - INFO - Logout response: b'OK@Goodbye!'
+2025-04-28 04:29:14,678 - INFO - Socket closed successfully
+2025-04-28 04:29:14,678 - INFO - Connection marked as disconnected
+2025-04-28 04:31:45,703 - INFO - C:\Users\USP\Desktop\client_server_final\client_server-main\client_server-main\client\client_app\views.py changed, reloading.
+2025-04-28 04:33:18,478 - INFO - C:\Users\USP\Desktop\client_server_final\client_server-main\client_server-main\client\client_app\views.py changed, reloading.
+2025-04-28 04:33:32,427 - INFO - Establishing new server connection...
+2025-04-28 04:33:32,433 - INFO - Connected to server. Welcome message: b'OK@Welcome to the File Server.'
+2025-04-28 04:33:37,904 - INFO - Starting fresh download: omar_v2.txt
+2025-04-28 04:33:37,917 - INFO - Metadata for omar_v2.txt saved. Status: incomplete, Position: 0/18
+2025-04-28 04:33:37,920 - INFO - File 'omar_v2.txt' downloaded successfully.
+2025-04-28 04:33:37,922 - INFO - Metadata for omar_v2.txt saved. Status: complete, Position: 18/18
+2025-04-28 04:34:03,526 - INFO - Starting logout process
+2025-04-28 04:34:03,527 - INFO - Closing connection 99346ccf-e759-4f9f-9ffb-8eed2097d6eb
+2025-04-28 04:34:03,528 - INFO - Sending LOGOUT command to server...
+2025-04-28 04:34:03,532 - INFO - Logout response: b'OK@Goodbye!'
+2025-04-28 04:34:03,532 - INFO - Socket closed successfully
+2025-04-28 04:34:03,533 - INFO - Connection marked as disconnected
+2025-04-28 04:34:03,533 - INFO - Removing connection 99346ccf-e759-4f9f-9ffb-8eed2097d6eb from registry
+2025-04-28 04:34:03,534 - INFO - Connection ID removed from session
+2025-04-28 04:34:03,535 - INFO - Performing Django authentication logout
+2025-04-28 04:36:19,099 - INFO - Establishing new server connection...
+2025-04-28 04:36:19,107 - INFO - Connected to server. Welcome message: b'OK@Welcome to the File Server.'
+2025-04-28 04:36:22,140 - INFO - Starting fresh download: omar.txt
+2025-04-28 04:36:22,148 - INFO - Metadata for omar.txt saved. Status: incomplete, Position: 0/18
+2025-04-28 04:36:22,162 - INFO - File 'omar.txt' downloaded successfully.
+2025-04-28 04:36:22,165 - INFO - Metadata for omar.txt saved. Status: complete, Position: 18/18
+2025-04-28 04:36:24,003 - INFO - Loaded metadata for omar.txt: {'filename': 'omar.txt', 'original_filename': 'omar.txt', 'last_received_byte': 18, 'total_size': 18, 'status': 'complete'}
+2025-04-28 04:36:24,004 - INFO - Starting fresh download: omar_v1.txt
+2025-04-28 04:36:24,015 - INFO - Metadata for omar_v1.txt saved. Status: incomplete, Position: 0/18
+2025-04-28 04:36:24,019 - INFO - File 'omar_v1.txt' downloaded successfully.
+2025-04-28 04:36:24,024 - INFO - Metadata for omar_v1.txt saved. Status: complete, Position: 18/18
+2025-04-28 04:37:00,800 - INFO - Delete response: OK@File deleted successfully.
+2025-04-28 04:37:00,801 - INFO - File omar.txt deleted successfully.
+2025-04-28 04:37:03,627 - INFO - Delete response: OK@File deleted successfully.
+2025-04-28 04:37:03,628 - INFO - File omar_v1.txt deleted successfully.
+2025-04-28 04:41:40,747 - INFO - C:\Users\USP\Desktop\client_server_final\client_server-main\client_server-main\client\client_app\urls.py changed, reloading.
+2025-04-28 04:41:42,580 - INFO - C:\Users\USP\Desktop\client_server_final\client_server-main\client_server-main\client\client_app\views.py changed, reloading.
+2025-04-28 04:42:00,883 - INFO - C:\Users\USP\Desktop\client_server_final\client_server-main\client_server-main\client\client_app\models.py changed, reloading.
+2025-04-28 04:42:28,345 - INFO - C:\Users\USP\Desktop\client_server_final\client_server-main\client_server-main\client\client_app\connection_manager.py changed, reloading.
+2025-04-28 04:42:52,511 - INFO - C:\Users\USP\Desktop\client_server_final\client_server-main\client_server-main\client\client\urls.py changed, reloading.
+2025-04-28 04:43:13,726 - INFO - C:\Users\USP\Desktop\client_server_final\client_server-main\client_server-main\client\client\settings.py changed, reloading.
+2025-04-28 04:52:27,994 - INFO - C:\Users\USP\Desktop\client_server_final\client_server-main\client_server-main\client\client_app\views.py changed, reloading.
+2025-04-28 04:52:42,083 - INFO - C:\Users\USP\Desktop\client_server_final\client_server-main\client_server-main\client\client_app\views.py changed, reloading.
+2025-04-28 04:53:51,023 - INFO - Establishing new server connection...
+2025-04-28 04:53:51,030 - INFO - Connected to server. Welcome message: b'OK@Welcome to the File Server.'
+2025-04-28 04:53:51,035 - ERROR - Error: cannot access local variable 'files_with_details' where it is not associated with a value
+2025-04-28 04:53:51,035 - INFO - Closing connection ed4eb9f0-f1b1-4636-b09b-6690650d391a
+2025-04-28 04:53:51,036 - INFO - Sending LOGOUT command to server...
+2025-04-28 04:53:51,041 - INFO - Logout response: b'OK@Goodbye!'
+2025-04-28 04:53:51,042 - INFO - Socket closed successfully
+2025-04-28 04:53:51,043 - INFO - Connection marked as disconnected
+2025-04-28 04:53:51,044 - INFO - Removing connection ed4eb9f0-f1b1-4636-b09b-6690650d391a from registry
+2025-04-28 04:53:51,045 - INFO - Connection ID removed from session
+2025-04-28 04:56:49,152 - INFO - Establishing new server connection...
+2025-04-28 04:56:49,157 - INFO - Connected to server. Welcome message: b'OK@Welcome to the File Server.'
+2025-04-28 04:56:49,163 - ERROR - Error: cannot access local variable 'files_with_details' where it is not associated with a value
+2025-04-28 04:56:49,164 - INFO - Closing connection cc2ef1f0-14e1-47b9-a996-601949a89506
+2025-04-28 04:56:49,165 - INFO - Sending LOGOUT command to server...
+2025-04-28 04:56:49,170 - INFO - Logout response: b'OK@Goodbye!'
+2025-04-28 04:56:49,171 - INFO - Socket closed successfully
+2025-04-28 04:56:49,173 - INFO - Connection marked as disconnected
+2025-04-28 04:56:49,175 - INFO - Removing connection cc2ef1f0-14e1-47b9-a996-601949a89506 from registry
+2025-04-28 04:56:49,176 - INFO - Connection ID removed from session
+2025-04-28 04:56:51,623 - INFO - Establishing new server connection...
+2025-04-28 04:56:51,630 - INFO - Connected to server. Welcome message: b'OK@Welcome to the File Server.'
+2025-04-28 04:56:56,570 - ERROR - Error: cannot access local variable 'files_with_details' where it is not associated with a value
+2025-04-28 04:56:56,571 - INFO - Closing connection 1eb447a2-1d14-4967-b565-4c66ed85086f
+2025-04-28 04:56:56,572 - INFO - Sending LOGOUT command to server...
+2025-04-28 04:56:56,575 - INFO - Logout response: b'OK@Goodbye!'
+2025-04-28 04:56:56,577 - INFO - Socket closed successfully
+2025-04-28 04:56:56,584 - INFO - Connection marked as disconnected
+2025-04-28 04:56:56,585 - INFO - Removing connection 1eb447a2-1d14-4967-b565-4c66ed85086f from registry
+2025-04-28 04:56:56,586 - INFO - Connection ID removed from session
+2025-04-28 04:56:59,346 - INFO - Establishing new server connection...
+2025-04-28 04:56:59,353 - INFO - Connected to server. Welcome message: b'OK@Welcome to the File Server.'
+2025-04-28 04:56:59,359 - ERROR - Error: cannot access local variable 'files_with_details' where it is not associated with a value
+2025-04-28 04:56:59,360 - INFO - Closing connection 4dfd6970-515a-4d6c-8ba6-9d1a1d11e27a
+2025-04-28 04:56:59,361 - INFO - Sending LOGOUT command to server...
+2025-04-28 04:56:59,370 - INFO - Logout response: b'OK@Goodbye!'
+2025-04-28 04:56:59,371 - INFO - Socket closed successfully
+2025-04-28 04:56:59,371 - INFO - Connection marked as disconnected
+2025-04-28 04:56:59,372 - INFO - Removing connection 4dfd6970-515a-4d6c-8ba6-9d1a1d11e27a from registry
+2025-04-28 04:56:59,373 - INFO - Connection ID removed from session
+2025-04-28 04:57:56,446 - INFO - Establishing new server connection...
+2025-04-28 04:57:56,451 - INFO - Connected to server. Welcome message: b'OK@Welcome to the File Server.'
+2025-04-28 04:57:56,455 - ERROR - Error: cannot access local variable 'files_with_details' where it is not associated with a value
+2025-04-28 04:57:56,456 - INFO - Closing connection be057eef-e5a2-4c92-ab94-d975951ccba4
+2025-04-28 04:57:56,457 - INFO - Sending LOGOUT command to server...
+2025-04-28 04:57:56,461 - INFO - Logout response: b'OK@Goodbye!'
+2025-04-28 04:57:56,463 - INFO - Socket closed successfully
+2025-04-28 04:57:56,464 - INFO - Connection marked as disconnected
+2025-04-28 04:57:56,464 - INFO - Removing connection be057eef-e5a2-4c92-ab94-d975951ccba4 from registry
+2025-04-28 04:57:56,465 - INFO - Connection ID removed from session
+2025-04-28 05:04:11,963 - INFO - C:\Users\USP\Desktop\client_server_final\client_server-main\client_server-main\client\client_app\views.py changed, reloading.
+2025-04-28 05:04:26,539 - INFO - Establishing new server connection...
+2025-04-28 05:04:26,551 - INFO - Connected to server. Welcome message: b'OK@Welcome to the File Server.'
+2025-04-28 05:06:11,777 - INFO - File omar.txt saved locally.
+2025-04-28 05:06:11,791 - INFO - Upload finished for omar.txt: SUCCESS@omar.txt@0@1
+2025-04-28 05:07:03,454 - INFO - File PHASE3.docx saved locally.
+2025-04-28 05:07:03,683 - INFO - Upload finished for PHASE3.docx: SUCCESS@PHASE3.docx@0@1
+2025-04-28 05:09:15,703 - INFO - C:\Users\USP\Desktop\client_server_final\client_server-main\client_server-main\client\client_app\views.py changed, reloading.
+2025-04-28 05:09:22,529 - INFO - Establishing new server connection...
+2025-04-28 05:09:22,538 - INFO - Connected to server. Welcome message: b'OK@Welcome to the File Server.'
+2025-04-28 05:09:22,543 - INFO - Server response: OK@omar.txt
+PHASE3.docx
+2025-04-28 05:09:22,544 - INFO - Processing line: omar.txt
+2025-04-28 05:09:22,545 - INFO - Processing line: PHASE3.docx
+2025-04-28 05:09:30,305 - INFO - File omar.txt saved locally.
+2025-04-28 05:09:30,321 - INFO - Upload finished for omar.txt: SUCCESS@omar_v1.txt@1@2
+2025-04-28 05:09:34,284 - INFO - Server response: OK@omar.txt
+omar_v1.txt
+PHASE3.docx
+2025-04-28 05:09:34,285 - INFO - Processing line: omar.txt
+2025-04-28 05:09:34,285 - INFO - Processing line: omar_v1.txt
+2025-04-28 05:09:34,286 - INFO - Processing line: PHASE3.docx
+2025-04-28 05:11:54,438 - INFO - C:\Users\USP\Desktop\client_server_final\client_server-main\client_server-main\client\client_app\views.py changed, reloading.
+2025-04-28 05:12:00,430 - INFO - Establishing new server connection...
+2025-04-28 05:12:00,437 - INFO - Connected to server. Welcome message: b'OK@Welcome to the File Server.'
+2025-04-28 05:12:00,440 - INFO - Server response: OK@omar.txt
+omar_v1.txt
+PHASE3.docx
+2025-04-28 05:12:00,440 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:12:00,441 - WARNING - Line doesn't contain delimiter: 'omar.txt'
+2025-04-28 05:12:00,441 - INFO - Processing line: 'omar_v1.txt'
+2025-04-28 05:12:00,442 - WARNING - Line doesn't contain delimiter: 'omar_v1.txt'
+2025-04-28 05:12:00,442 - INFO - Processing line: 'PHASE3.docx'
+2025-04-28 05:12:00,443 - WARNING - Line doesn't contain delimiter: 'PHASE3.docx'
+2025-04-28 05:12:01,501 - INFO - Server response: OK@omar.txt
+omar_v1.txt
+PHASE3.docx
+2025-04-28 05:12:01,501 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:12:01,502 - WARNING - Line doesn't contain delimiter: 'omar.txt'
+2025-04-28 05:12:01,502 - INFO - Processing line: 'omar_v1.txt'
+2025-04-28 05:12:01,502 - WARNING - Line doesn't contain delimiter: 'omar_v1.txt'
+2025-04-28 05:12:01,502 - INFO - Processing line: 'PHASE3.docx'
+2025-04-28 05:12:01,502 - WARNING - Line doesn't contain delimiter: 'PHASE3.docx'
+2025-04-28 05:12:01,730 - INFO - Server response: OK@omar.txt
+omar_v1.txt
+PHASE3.docx
+2025-04-28 05:12:01,730 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:12:01,731 - WARNING - Line doesn't contain delimiter: 'omar.txt'
+2025-04-28 05:12:01,731 - INFO - Processing line: 'omar_v1.txt'
+2025-04-28 05:12:01,732 - WARNING - Line doesn't contain delimiter: 'omar_v1.txt'
+2025-04-28 05:12:01,732 - INFO - Processing line: 'PHASE3.docx'
+2025-04-28 05:12:01,733 - WARNING - Line doesn't contain delimiter: 'PHASE3.docx'
+2025-04-28 05:12:01,903 - INFO - Server response: OK@omar.txt
+omar_v1.txt
+PHASE3.docx
+2025-04-28 05:12:01,904 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:12:01,905 - WARNING - Line doesn't contain delimiter: 'omar.txt'
+2025-04-28 05:12:01,905 - INFO - Processing line: 'omar_v1.txt'
+2025-04-28 05:12:01,906 - WARNING - Line doesn't contain delimiter: 'omar_v1.txt'
+2025-04-28 05:12:01,906 - INFO - Processing line: 'PHASE3.docx'
+2025-04-28 05:12:01,907 - WARNING - Line doesn't contain delimiter: 'PHASE3.docx'
+2025-04-28 05:12:02,078 - INFO - Server response: OK@omar.txt
+omar_v1.txt
+PHASE3.docx
+2025-04-28 05:12:02,079 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:12:02,079 - WARNING - Line doesn't contain delimiter: 'omar.txt'
+2025-04-28 05:12:02,079 - INFO - Processing line: 'omar_v1.txt'
+2025-04-28 05:12:02,080 - WARNING - Line doesn't contain delimiter: 'omar_v1.txt'
+2025-04-28 05:12:02,080 - INFO - Processing line: 'PHASE3.docx'
+2025-04-28 05:12:02,081 - WARNING - Line doesn't contain delimiter: 'PHASE3.docx'
+2025-04-28 05:12:02,238 - INFO - Server response: OK@omar.txt
+omar_v1.txt
+PHASE3.docx
+2025-04-28 05:12:02,239 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:12:02,239 - WARNING - Line doesn't contain delimiter: 'omar.txt'
+2025-04-28 05:12:02,240 - INFO - Processing line: 'omar_v1.txt'
+2025-04-28 05:12:02,241 - WARNING - Line doesn't contain delimiter: 'omar_v1.txt'
+2025-04-28 05:12:02,242 - INFO - Processing line: 'PHASE3.docx'
+2025-04-28 05:12:02,243 - WARNING - Line doesn't contain delimiter: 'PHASE3.docx'
+2025-04-28 05:12:02,415 - INFO - Server response: OK@omar.txt
+omar_v1.txt
+PHASE3.docx
+2025-04-28 05:12:02,415 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:12:02,416 - WARNING - Line doesn't contain delimiter: 'omar.txt'
+2025-04-28 05:12:02,416 - INFO - Processing line: 'omar_v1.txt'
+2025-04-28 05:12:02,417 - WARNING - Line doesn't contain delimiter: 'omar_v1.txt'
+2025-04-28 05:12:02,417 - INFO - Processing line: 'PHASE3.docx'
+2025-04-28 05:12:02,418 - WARNING - Line doesn't contain delimiter: 'PHASE3.docx'
+2025-04-28 05:12:05,991 - INFO - Delete response: OK@File deleted successfully.
+2025-04-28 05:12:05,991 - INFO - File omar.txt deleted successfully.
+2025-04-28 05:12:15,607 - INFO - Server response: OK@omar_v1.txt
+PHASE3.docx
+2025-04-28 05:12:15,608 - INFO - Processing line: 'omar_v1.txt'
+2025-04-28 05:12:15,608 - WARNING - Line doesn't contain delimiter: 'omar_v1.txt'
+2025-04-28 05:12:15,609 - INFO - Processing line: 'PHASE3.docx'
+2025-04-28 05:12:15,609 - WARNING - Line doesn't contain delimiter: 'PHASE3.docx'
+2025-04-28 05:12:17,827 - INFO - Delete response: OK@File deleted successfully.
+2025-04-28 05:12:17,828 - INFO - File omar_v1.txt deleted successfully.
+2025-04-28 05:12:23,592 - INFO - Server response: OK@PHASE3.docx
+2025-04-28 05:12:23,593 - INFO - Processing line: 'PHASE3.docx'
+2025-04-28 05:12:23,593 - WARNING - Line doesn't contain delimiter: 'PHASE3.docx'
+2025-04-28 05:12:25,480 - INFO - Delete response: OK@File deleted successfully.
+2025-04-28 05:12:25,481 - INFO - File PHASE3.docx deleted successfully.
+2025-04-28 05:12:29,892 - INFO - Server response: OK@The server directory is empty.
+2025-04-28 05:12:29,892 - INFO - Server directory is empty
+2025-04-28 05:12:36,054 - INFO - File omar.txt saved locally.
+2025-04-28 05:12:36,065 - INFO - Upload finished for omar.txt: SUCCESS@omar.txt@0@1
+2025-04-28 05:12:40,563 - INFO - Server response: OK@omar.txt
+2025-04-28 05:12:40,563 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:12:40,564 - WARNING - Line doesn't contain delimiter: 'omar.txt'
+2025-04-28 05:13:46,271 - INFO - C:\Users\USP\Desktop\client_server_final\client_server-main\client_server-main\client\client_app\views.py changed, reloading.
+2025-04-28 05:14:44,301 - INFO - Establishing new server connection...
+2025-04-28 05:14:44,306 - INFO - Connected to server. Welcome message: b'OK@Welcome to the File Server.'
+2025-04-28 05:14:44,309 - INFO - Raw server response: 'OK@omar.txt'
+2025-04-28 05:14:44,310 - INFO - Content after OK@: 'omar.txt'
+2025-04-28 05:14:44,311 - INFO - Number of file lines: 1
+2025-04-28 05:14:44,311 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:14:44,312 - WARNING - Line doesn't contain delimiter: 'omar.txt'
+2025-04-28 05:14:44,312 - INFO - Final files_with_details: [{'name': 'omar.txt', 'size': 'Unknown (no delimiter)', 'modified': 'Unknown (no delimiter)'}]
+2025-04-28 05:19:53,568 - INFO - C:\Users\USP\Desktop\client_server_final\client_server-main\client_server-main\client\client_app\views.py changed, reloading.
+2025-04-28 05:20:10,768 - INFO - C:\Users\USP\Desktop\client_server_final\client_server-main\client_server-main\client\client_app\views.py changed, reloading.
+2025-04-28 05:20:33,085 - INFO - File omar (2).txt saved locally.
+2025-04-28 05:20:33,087 - INFO - Establishing new server connection...
+2025-04-28 05:20:33,093 - INFO - Connected to server. Welcome message: b'OK@Welcome to the File Server.'
+2025-04-28 05:20:33,111 - INFO - Upload finished for omar (2).txt: SUCCESS@omar (2).txt@0@1
+2025-04-28 05:20:42,947 - INFO - Raw server response: 'OK@omar (2).txt
+omar.txt'
+2025-04-28 05:20:42,948 - INFO - Processing line: 'omar (2).txt'
+2025-04-28 05:20:42,948 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:20:51,701 - INFO - Raw server response: 'OK@omar (2).txt
+omar.txt'
+2025-04-28 05:20:51,702 - INFO - Processing line: 'omar (2).txt'
+2025-04-28 05:20:51,702 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:21:02,872 - INFO - Raw server response: 'OK@omar (2).txt
+omar.txt'
+2025-04-28 05:21:02,872 - INFO - Processing line: 'omar (2).txt'
+2025-04-28 05:21:02,873 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:21:04,488 - INFO - Raw server response: 'OK@omar (2).txt
+omar.txt'
+2025-04-28 05:21:04,489 - INFO - Processing line: 'omar (2).txt'
+2025-04-28 05:21:04,490 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:23:19,699 - INFO - Raw server response: 'OK@omar (2).txt
+omar.txt'
+2025-04-28 05:23:19,700 - INFO - Processing line: 'omar (2).txt'
+2025-04-28 05:23:19,700 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:25:30,043 - INFO - C:\Users\USP\Desktop\client_server_final\client_server-main\client_server-main\client\client_app\views.py changed, reloading.
+2025-04-28 05:28:22,326 - INFO - Establishing new server connection...
+2025-04-28 05:28:22,333 - INFO - Connected to server. Welcome message: b'OK@Welcome to the File Server.'
+2025-04-28 05:28:22,336 - INFO - Raw response bytes: b'OK@omar (2).txt\nomar.txt'
+2025-04-28 05:28:22,337 - INFO - Decoded response: 'OK@omar (2).txt
+omar.txt'
+2025-04-28 05:28:22,337 - INFO - Content after OK@: 'omar (2).txt
+omar.txt'
+2025-04-28 05:28:22,338 - INFO - Found 2 file entries
+2025-04-28 05:28:22,339 - INFO - Processing line: 'omar (2).txt'
+2025-04-28 05:28:22,339 - WARNING - No delimiter in 'omar (2).txt'
+2025-04-28 05:28:22,340 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:28:22,340 - WARNING - No delimiter in 'omar.txt'
+2025-04-28 05:28:22,341 - INFO - Files with details: [{'name': 'omar (2).txt', 'size': 'Unknown', 'modified': 'Unknown'}, {'name': 'omar.txt', 'size': 'Unknown', 'modified': 'Unknown'}]
+2025-04-28 05:34:37,485 - INFO - Raw response bytes: b'OK@omar (2).txt\nomar.txt'
+2025-04-28 05:34:37,486 - INFO - Decoded response: 'OK@omar (2).txt
+omar.txt'
+2025-04-28 05:34:37,486 - INFO - Content after OK@: 'omar (2).txt
+omar.txt'
+2025-04-28 05:34:37,487 - INFO - Found 2 file entries
+2025-04-28 05:34:37,487 - INFO - Processing line: 'omar (2).txt'
+2025-04-28 05:34:37,488 - WARNING - No delimiter in 'omar (2).txt'
+2025-04-28 05:34:37,489 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:34:37,489 - WARNING - No delimiter in 'omar.txt'
+2025-04-28 05:34:37,490 - INFO - Files with details: [{'name': 'omar (2).txt', 'size': 'Unknown', 'modified': 'Unknown'}, {'name': 'omar.txt', 'size': 'Unknown', 'modified': 'Unknown'}]
+2025-04-28 05:34:42,973 - INFO - Raw response bytes: b'OK@omar (2).txt\nomar.txt'
+2025-04-28 05:34:42,973 - INFO - Decoded response: 'OK@omar (2).txt
+omar.txt'
+2025-04-28 05:34:42,974 - INFO - Content after OK@: 'omar (2).txt
+omar.txt'
+2025-04-28 05:34:42,975 - INFO - Found 2 file entries
+2025-04-28 05:34:42,975 - INFO - Processing line: 'omar (2).txt'
+2025-04-28 05:34:42,976 - WARNING - No delimiter in 'omar (2).txt'
+2025-04-28 05:34:42,977 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:34:42,978 - WARNING - No delimiter in 'omar.txt'
+2025-04-28 05:34:42,979 - INFO - Files with details: [{'name': 'omar (2).txt', 'size': 'Unknown', 'modified': 'Unknown'}, {'name': 'omar.txt', 'size': 'Unknown', 'modified': 'Unknown'}]
+2025-04-28 05:34:44,901 - INFO - Delete response: OK@File deleted successfully.
+2025-04-28 05:34:44,901 - INFO - File omar (2).txt deleted successfully.
+2025-04-28 05:34:50,725 - INFO - Raw response bytes: b'OK@omar.txt'
+2025-04-28 05:34:50,726 - INFO - Decoded response: 'OK@omar.txt'
+2025-04-28 05:34:50,727 - INFO - Content after OK@: 'omar.txt'
+2025-04-28 05:34:50,727 - INFO - Found 1 file entries
+2025-04-28 05:34:50,728 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:34:50,729 - WARNING - No delimiter in 'omar.txt'
+2025-04-28 05:34:50,730 - INFO - Files with details: [{'name': 'omar.txt', 'size': 'Unknown', 'modified': 'Unknown'}]
+2025-04-28 05:35:08,516 - INFO - Raw response bytes: b'OK@omar.txt'
+2025-04-28 05:35:08,517 - INFO - Decoded response: 'OK@omar.txt'
+2025-04-28 05:35:08,517 - INFO - Content after OK@: 'omar.txt'
+2025-04-28 05:35:08,518 - INFO - Found 1 file entries
+2025-04-28 05:35:08,518 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:35:08,519 - WARNING - No delimiter in 'omar.txt'
+2025-04-28 05:35:08,519 - INFO - Files with details: [{'name': 'omar.txt', 'size': 'Unknown', 'modified': 'Unknown'}]
+2025-04-28 05:35:09,628 - INFO - Loaded metadata for omar.txt: {'filename': 'omar.txt', 'original_filename': 'omar.txt', 'last_received_byte': 18, 'total_size': 18, 'status': 'complete'}
+2025-04-28 05:35:09,629 - INFO - Starting fresh download: omar_v1.txt
+2025-04-28 05:35:09,637 - INFO - Metadata for omar_v1.txt saved. Status: incomplete, Position: 0/18
+2025-04-28 05:35:09,640 - INFO - File 'omar_v1.txt' downloaded successfully.
+2025-04-28 05:35:09,643 - INFO - Metadata for omar_v1.txt saved. Status: complete, Position: 18/18
+2025-04-28 05:43:36,309 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USP\Desktop\client_server_final\client_server-main\client_server-main\client\client_app\views.py", line 102, in home
+    return render(request, "client_app/Home.html", {"files": files})
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+2025-04-28 05:44:23,539 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USP\Desktop\client_server_final\client_server-main\client_server-main\client\client_app\views.py", line 102, in home
+    return render(request, "client_app/Home.html", {"files": files})
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+2025-04-28 05:44:25,516 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USP\Desktop\client_server_final\client_server-main\client_server-main\client\client_app\views.py", line 102, in home
+    return render(request, "client_app/Home.html", {"files": files})
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\USP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+2025-04-28 05:45:30,894 - INFO - Connection idle for 600 seconds, disconnecting...
+2025-04-28 05:45:30,895 - INFO - Sending LOGOUT command to server...
+2025-04-28 05:45:30,900 - INFO - Logout response: b'OK@Goodbye!'
+2025-04-28 05:45:30,901 - INFO - Socket closed successfully
+2025-04-28 05:45:30,902 - INFO - Connection marked as disconnected
+2025-04-28 05:47:37,271 - INFO - Establishing new server connection...
+2025-04-28 05:47:37,277 - INFO - Connected to server. Welcome message: b'OK@Welcome to the File Server.'
+2025-04-28 05:47:37,282 - INFO - Raw response bytes: b'OK@omar.txt'
+2025-04-28 05:47:37,283 - INFO - Decoded response: 'OK@omar.txt'
+2025-04-28 05:47:37,283 - INFO - Content after OK@: 'omar.txt'
+2025-04-28 05:47:37,284 - INFO - Found 1 file entries
+2025-04-28 05:47:37,286 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:47:37,287 - WARNING - No delimiter in 'omar.txt'
+2025-04-28 05:47:37,288 - INFO - Files with details: [{'name': 'omar.txt', 'size': 'Unknown', 'modified': 'Unknown'}]
+2025-04-28 05:47:43,323 - INFO - Raw response bytes: b'OK@omar.txt'
+2025-04-28 05:47:43,324 - INFO - Decoded response: 'OK@omar.txt'
+2025-04-28 05:47:43,325 - INFO - Content after OK@: 'omar.txt'
+2025-04-28 05:47:43,326 - INFO - Found 1 file entries
+2025-04-28 05:47:43,327 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:47:43,328 - WARNING - No delimiter in 'omar.txt'
+2025-04-28 05:47:43,330 - INFO - Files with details: [{'name': 'omar.txt', 'size': 'Unknown', 'modified': 'Unknown'}]
+2025-04-28 05:47:51,813 - INFO - Raw response bytes: b'OK@omar.txt'
+2025-04-28 05:47:51,814 - INFO - Decoded response: 'OK@omar.txt'
+2025-04-28 05:47:51,814 - INFO - Content after OK@: 'omar.txt'
+2025-04-28 05:47:51,815 - INFO - Found 1 file entries
+2025-04-28 05:47:51,817 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:47:51,818 - WARNING - No delimiter in 'omar.txt'
+2025-04-28 05:47:51,820 - INFO - Files with details: [{'name': 'omar.txt', 'size': 'Unknown', 'modified': 'Unknown'}]
+2025-04-28 05:49:18,342 - INFO - Starting logout process
+2025-04-28 05:49:18,343 - INFO - Closing connection 088f1dfc-08e2-48f2-bc57-f78a1726a6f5
+2025-04-28 05:49:18,344 - INFO - Sending LOGOUT command to server...
+2025-04-28 05:49:18,347 - INFO - Logout response: b'OK@Goodbye!'
+2025-04-28 05:49:18,348 - INFO - Socket closed successfully
+2025-04-28 05:49:18,349 - INFO - Connection marked as disconnected
+2025-04-28 05:49:18,351 - INFO - Removing connection 088f1dfc-08e2-48f2-bc57-f78a1726a6f5 from registry
+2025-04-28 05:49:18,352 - INFO - Connection ID removed from session
+2025-04-28 05:49:18,353 - INFO - Performing Django authentication logout
+2025-04-28 05:49:33,507 - INFO - Starting logout process
+2025-04-28 05:49:33,508 - INFO - Performing Django authentication logout
+2025-04-28 05:49:52,564 - INFO - Establishing new server connection...
+2025-04-28 05:49:52,569 - INFO - Connected to server. Welcome message: b'OK@Welcome to the File Server.'
+2025-04-28 05:49:52,575 - INFO - Raw response bytes: b'OK@omar.txt'
+2025-04-28 05:49:52,577 - INFO - Decoded response: 'OK@omar.txt'
+2025-04-28 05:49:52,578 - INFO - Content after OK@: 'omar.txt'
+2025-04-28 05:49:52,579 - INFO - Found 1 file entries
+2025-04-28 05:49:52,579 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:49:52,580 - WARNING - No delimiter in 'omar.txt'
+2025-04-28 05:49:52,581 - INFO - Files with details: [{'name': 'omar.txt', 'size': 'Unknown', 'modified': 'Unknown'}]
+2025-04-28 05:55:26,089 - INFO - File omar_v1 (2).txt saved locally.
+2025-04-28 05:55:26,105 - INFO - Upload finished for omar_v1 (2).txt: SUCCESS@omar_v1 (2).txt@0@1
+2025-04-28 05:57:28,261 - INFO - File omar.txt saved locally.
+2025-04-28 05:57:28,278 - INFO - Upload finished for omar.txt: SUCCESS@omar_v1.txt@1@3
+2025-04-28 05:57:38,891 - INFO - Raw response bytes: b'OK@omar.txt\nomar_v1 (2).txt\nomar_v1.txt'
+2025-04-28 05:57:38,892 - INFO - Decoded response: 'OK@omar.txt
+omar_v1 (2).txt
+omar_v1.txt'
+2025-04-28 05:57:38,893 - INFO - Content after OK@: 'omar.txt
+omar_v1 (2).txt
+omar_v1.txt'
+2025-04-28 05:57:38,893 - INFO - Found 3 file entries
+2025-04-28 05:57:38,894 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:57:38,895 - WARNING - No delimiter in 'omar.txt'
+2025-04-28 05:57:38,896 - INFO - Processing line: 'omar_v1 (2).txt'
+2025-04-28 05:57:38,899 - WARNING - No delimiter in 'omar_v1 (2).txt'
+2025-04-28 05:57:38,901 - INFO - Processing line: 'omar_v1.txt'
+2025-04-28 05:57:38,901 - WARNING - No delimiter in 'omar_v1.txt'
+2025-04-28 05:57:38,902 - INFO - Files with details: [{'name': 'omar.txt', 'size': 'Unknown', 'modified': 'Unknown'}, {'name': 'omar_v1 (2).txt', 'size': 'Unknown', 'modified': 'Unknown'}, {'name': 'omar_v1.txt', 'size': 'Unknown', 'modified': 'Unknown'}]
+2025-04-28 05:57:41,180 - INFO - Loaded metadata for omar.txt: {'filename': 'omar.txt', 'original_filename': 'omar.txt', 'last_received_byte': 18, 'total_size': 18, 'status': 'complete'}
+2025-04-28 05:57:41,182 - INFO - Loaded metadata for omar_v1.txt: {'filename': 'omar_v1.txt', 'original_filename': 'omar.txt', 'last_received_byte': 18, 'total_size': 18, 'status': 'complete'}
+2025-04-28 05:57:41,183 - INFO - Starting fresh download: omar_v2.txt
+2025-04-28 05:57:41,192 - INFO - Metadata for omar_v2.txt saved. Status: incomplete, Position: 0/18
+2025-04-28 05:57:41,196 - INFO - File 'omar_v2.txt' downloaded successfully.
+2025-04-28 05:57:41,202 - INFO - Metadata for omar_v2.txt saved. Status: complete, Position: 18/18
+2025-04-28 05:59:09,206 - INFO - Raw response bytes: b'OK@omar.txt\nomar_v1 (2).txt\nomar_v1.txt'
+2025-04-28 05:59:09,207 - INFO - Decoded response: 'OK@omar.txt
+omar_v1 (2).txt
+omar_v1.txt'
+2025-04-28 05:59:09,207 - INFO - Content after OK@: 'omar.txt
+omar_v1 (2).txt
+omar_v1.txt'
+2025-04-28 05:59:09,208 - INFO - Found 3 file entries
+2025-04-28 05:59:09,208 - INFO - Processing line: 'omar.txt'
+2025-04-28 05:59:09,209 - WARNING - No delimiter in 'omar.txt'
+2025-04-28 05:59:09,210 - INFO - Processing line: 'omar_v1 (2).txt'
+2025-04-28 05:59:09,210 - WARNING - No delimiter in 'omar_v1 (2).txt'
+2025-04-28 05:59:09,211 - INFO - Processing line: 'omar_v1.txt'
+2025-04-28 05:59:09,212 - WARNING - No delimiter in 'omar_v1.txt'
+2025-04-28 05:59:09,213 - INFO - Files with details: [{'name': 'omar.txt', 'size': 'Unknown', 'modified': 'Unknown'}, {'name': 'omar_v1 (2).txt', 'size': 'Unknown', 'modified': 'Unknown'}, {'name': 'omar_v1.txt', 'size': 'Unknown', 'modified': 'Unknown'}]
+2025-04-28 05:59:14,466 - INFO - Starting logout process
+2025-04-28 05:59:14,467 - INFO - Closing connection 611e71bb-0ae1-40a4-9ee3-0ff846866d53
+2025-04-28 05:59:14,468 - INFO - Sending LOGOUT command to server...
+2025-04-28 05:59:14,472 - INFO - Logout response: b'OK@Goodbye!'
+2025-04-28 05:59:14,475 - INFO - Socket closed successfully
+2025-04-28 05:59:14,475 - INFO - Connection marked as disconnected
+2025-04-28 05:59:14,477 - INFO - Removing connection 611e71bb-0ae1-40a4-9ee3-0ff846866d53 from registry
+2025-04-28 05:59:14,477 - INFO - Connection ID removed from session
+2025-04-28 05:59:14,478 - INFO - Performing Django authentication logout
+2025-04-28 05:59:40,353 - INFO - Establishing new server connection...
+2025-04-28 05:59:40,361 - INFO - Connected to server. Welcome message: b'OK@Welcome to the File Server.'
+2025-04-28 06:00:04,292 - INFO - Raw response bytes: b'OK@omar.txt\nomar_v1 (2).txt\nomar_v1.txt'
+2025-04-28 06:00:04,293 - INFO - Decoded response: 'OK@omar.txt
+omar_v1 (2).txt
+omar_v1.txt'
+2025-04-28 06:00:04,293 - INFO - Content after OK@: 'omar.txt
+omar_v1 (2).txt
+omar_v1.txt'
+2025-04-28 06:00:04,293 - INFO - Found 3 file entries
+2025-04-28 06:00:04,294 - INFO - Processing line: 'omar.txt'
+2025-04-28 06:00:04,294 - WARNING - No delimiter in 'omar.txt'
+2025-04-28 06:00:04,295 - INFO - Processing line: 'omar_v1 (2).txt'
+2025-04-28 06:00:04,295 - WARNING - No delimiter in 'omar_v1 (2).txt'
+2025-04-28 06:00:04,296 - INFO - Processing line: 'omar_v1.txt'
+2025-04-28 06:00:04,296 - WARNING - No delimiter in 'omar_v1.txt'
+2025-04-28 06:00:04,297 - INFO - Files with details: [{'name': 'omar.txt', 'size': 'Unknown', 'modified': 'Unknown'}, {'name': 'omar_v1 (2).txt', 'size': 'Unknown', 'modified': 'Unknown'}, {'name': 'omar_v1.txt', 'size': 'Unknown', 'modified': 'Unknown'}]
+2025-04-28 06:00:09,949 - INFO - Delete response: OK@File deleted successfully.
+2025-04-28 06:00:09,950 - INFO - File omar_v1.txt deleted successfully.
+2025-04-28 06:00:14,560 - INFO - Raw response bytes: b'OK@omar.txt\nomar_v1 (2).txt'
+2025-04-28 06:00:14,560 - INFO - Decoded response: 'OK@omar.txt
+omar_v1 (2).txt'
+2025-04-28 06:00:14,561 - INFO - Content after OK@: 'omar.txt
+omar_v1 (2).txt'
+2025-04-28 06:00:14,562 - INFO - Found 2 file entries
+2025-04-28 06:00:14,562 - INFO - Processing line: 'omar.txt'
+2025-04-28 06:00:14,562 - WARNING - No delimiter in 'omar.txt'
+2025-04-28 06:00:14,563 - INFO - Processing line: 'omar_v1 (2).txt'
+2025-04-28 06:00:14,564 - WARNING - No delimiter in 'omar_v1 (2).txt'
+2025-04-28 06:00:14,564 - INFO - Files with details: [{'name': 'omar.txt', 'size': 'Unknown', 'modified': 'Unknown'}, {'name': 'omar_v1 (2).txt', 'size': 'Unknown', 'modified': 'Unknown'}]
+2025-04-28 06:00:18,193 - INFO - Raw response bytes: b'OK@omar.txt\nomar_v1 (2).txt'
+2025-04-28 06:00:18,193 - INFO - Decoded response: 'OK@omar.txt
+omar_v1 (2).txt'
+2025-04-28 06:00:18,194 - INFO - Content after OK@: 'omar.txt
+omar_v1 (2).txt'
+2025-04-28 06:00:18,195 - INFO - Found 2 file entries
+2025-04-28 06:00:18,195 - INFO - Processing line: 'omar.txt'
+2025-04-28 06:00:18,195 - WARNING - No delimiter in 'omar.txt'
+2025-04-28 06:00:18,196 - INFO - Processing line: 'omar_v1 (2).txt'
+2025-04-28 06:00:18,196 - WARNING - No delimiter in 'omar_v1 (2).txt'
+2025-04-28 06:00:18,197 - INFO - Files with details: [{'name': 'omar.txt', 'size': 'Unknown', 'modified': 'Unknown'}, {'name': 'omar_v1 (2).txt', 'size': 'Unknown', 'modified': 'Unknown'}]
+2025-04-28 06:00:21,105 - INFO - Delete response: OK@File deleted successfully.
+2025-04-28 06:00:21,105 - INFO - File omar_v1 (2).txt deleted successfully.
+2025-04-28 06:00:23,162 - INFO - Raw response bytes: b'OK@omar.txt'
+2025-04-28 06:00:23,163 - INFO - Decoded response: 'OK@omar.txt'
+2025-04-28 06:00:23,163 - INFO - Content after OK@: 'omar.txt'
+2025-04-28 06:00:23,164 - INFO - Found 1 file entries
+2025-04-28 06:00:23,164 - INFO - Processing line: 'omar.txt'
+2025-04-28 06:00:23,165 - WARNING - No delimiter in 'omar.txt'
+2025-04-28 06:00:23,166 - INFO - Files with details: [{'name': 'omar.txt', 'size': 'Unknown', 'modified': 'Unknown'}]
+2025-04-28 06:02:55,126 - INFO - Starting logout process
+2025-04-28 06:02:55,126 - INFO - Closing connection cdde7114-eef4-477e-bcaf-e705857b1651
+2025-04-28 06:02:55,126 - INFO - Sending LOGOUT command to server...
+2025-04-28 06:02:55,130 - INFO - Logout response: b'OK@Goodbye!'
+2025-04-28 06:02:55,131 - INFO - Socket closed successfully
+2025-04-28 06:02:55,131 - INFO - Connection marked as disconnected
+2025-04-28 06:02:55,132 - INFO - Removing connection cdde7114-eef4-477e-bcaf-e705857b1651 from registry
+2025-04-28 06:02:55,132 - INFO - Connection ID removed from session
+2025-04-28 06:02:55,133 - INFO - Performing Django authentication logout
+2025-04-28 06:03:27,315 - INFO - File omar.txt saved locally.
+2025-04-28 06:03:27,316 - INFO - Establishing new server connection...
+2025-04-28 06:03:27,321 - INFO - Connected to server. Welcome message: b'OK@Welcome to the File Server.'
+2025-04-28 06:03:27,337 - INFO - Upload finished for omar.txt: SUCCESS@omar_v1.txt@1@2
+2025-04-28 06:03:31,135 - INFO - Raw response bytes: b'OK@omar.txt\nomar_v1.txt'
+2025-04-28 06:03:31,136 - INFO - Decoded response: 'OK@omar.txt
+omar_v1.txt'
+2025-04-28 06:03:31,136 - INFO - Content after OK@: 'omar.txt
+omar_v1.txt'
+2025-04-28 06:03:31,137 - INFO - Found 2 file entries
+2025-04-28 06:03:31,137 - INFO - Processing line: 'omar.txt'
+2025-04-28 06:03:31,138 - WARNING - No delimiter in 'omar.txt'
+2025-04-28 06:03:31,138 - INFO - Processing line: 'omar_v1.txt'
+2025-04-28 06:03:31,139 - WARNING - No delimiter in 'omar_v1.txt'
+2025-04-28 06:03:31,139 - INFO - Files with details: [{'name': 'omar.txt', 'size': 'Unknown', 'modified': 'Unknown'}, {'name': 'omar_v1.txt', 'size': 'Unknown', 'modified': 'Unknown'}]
+2025-04-28 06:03:34,292 - INFO - Delete response: OK@File deleted successfully.
+2025-04-28 06:03:34,293 - INFO - File omar_v1.txt deleted successfully.
+2025-04-28 06:07:41,309 - INFO - Raw response bytes: b'OK@omar.txt'
+2025-04-28 06:07:41,310 - INFO - Decoded response: 'OK@omar.txt'
+2025-04-28 06:07:41,310 - INFO - Content after OK@: 'omar.txt'
+2025-04-28 06:07:41,311 - INFO - Found 1 file entries
+2025-04-28 06:07:41,311 - INFO - Processing line: 'omar.txt'
+2025-04-28 06:07:41,312 - WARNING - No delimiter in 'omar.txt'
+2025-04-28 06:07:41,312 - INFO - Files with details: [{'name': 'omar.txt', 'size': 'Unknown', 'modified': 'Unknown'}]
+2025-04-28 06:09:50,903 - INFO - C:\Users\USP\Desktop\client_server_final\client_server-main\client_server-main\client\client_app\views.py changed, reloading.
+2025-04-28 06:10:08,652 - INFO - Establishing new server connection...
+2025-04-28 06:10:08,659 - INFO - Connected to server. Welcome message: b'OK@Welcome to the File Server.'
+2025-04-28 06:20:51,661 - INFO - Connection idle for 600 seconds, disconnecting...
+2025-04-28 06:20:51,663 - INFO - Sending LOGOUT command to server...
+2025-04-28 06:20:51,668 - INFO - Logout response: b'OK@Goodbye!'
+2025-04-28 06:20:51,669 - INFO - Socket closed successfully
+2025-04-28 06:20:51,670 - INFO - Connection marked as disconnected
+2025-04-28 06:48:02,755 - INFO - Establishing new server connection...
+2025-04-28 06:48:02,762 - INFO - Connected to server. Welcome message: b'OK@Welcome to the File Server.'
+2025-04-28 06:48:02,765 - INFO - Raw response bytes: b'OK@omar.txt'
+2025-04-28 06:48:02,766 - INFO - Decoded response: 'OK@omar.txt'
+2025-04-28 06:48:02,766 - INFO - Content after OK@: 'omar.txt'
+2025-04-28 06:48:02,767 - INFO - Found 1 file entries
+2025-04-28 06:48:02,767 - INFO - Processing line: 'omar.txt'
+2025-04-28 06:48:02,769 - WARNING - No delimiter in 'omar.txt'
+2025-04-28 06:48:02,769 - INFO - Files with details: [{'name': 'omar.txt', 'size': 'Unknown', 'modified': 'Unknown'}]

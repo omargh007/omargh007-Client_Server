@@ -1,0 +1,85 @@
+<!-- help.html -->
+{% extends "client_app/base.html" %}
+
+{% block title %}Help{% endblock %}
+
+{% block content %}
+    <h1 style="text-align: center; margin-bottom: 20px;">Help & Documentation</h1>
+
+    <div class="help-container">
+        {% if help_text %}
+            <!-- Render help_text with safe filter -->
+            <div class="help-content">
+                {{ help_text|safe }}
+            </div>
+        {% else %}
+            <div class="help-section">
+                <h2>Getting Started</h2>
+                <p>Welcome to the File Sharing System. Here's how to get started:</p>
+                
+                <h3>Uploading Files</h3>
+                <p>To upload a file to the server:</p>
+                <ol>
+                    <li>Navigate to the <a href="{% url 'upload_file' %}">Upload</a> page</li>
+                    <li>Select a file from your device</li>
+                    <li>Click the "Upload" button</li>
+                    <li>Wait for the progress bar to complete</li>
+                </ol>
+                
+                <h3>Downloading Files</h3>
+                <p>To download a file from the server:</p>
+                <ol>
+                    <li>Go to <a href="{% url 'list_files' %}">List Files</a></li>
+                    <li>Find the file you want to download</li>
+                    <li>Click the "Download" button next to the file</li>
+                </ol>
+                
+                <h3>Account Management</h3>
+                <p>You need an account to access all features:</p>
+                <ul>
+                    <li>To create an account, visit the <a href="{% url 'register' %}">Register</a> page</li>
+                    <li>Already have an account? <a href="{% url 'login' %}">Login</a> here</li>
+                </ul>
+                
+                <h3>Admin Features</h3>
+                <p>If you have admin privileges, you can:</p>
+                <ul>
+                    <li>Delete files from the server</li>
+                    <li>View all user activities</li>
+                    <li>Manage user accounts</li>
+                </ul>
+            </div>
+            
+            <div class="help-section">
+                <h2>Troubleshooting</h2>
+                
+                <h3>Upload Issues</h3>
+                <p>If you encounter problems during upload:</p>
+                <ul>
+                    <li>Check your internet connection</li>
+                    <li>Ensure the file isn't too large (max size: 50MB)</li>
+                    <li>Try using a different browser</li>
+                </ul>
+                
+                <h3>Download Issues</h3>
+                <p>If you have problems downloading files:</p>
+                <ul>
+                    <li>Make sure you're logged in</li>
+                    <li>Check if the file still exists on the server</li>
+                    <li>Contact an administrator if the issue persists</li>
+                </ul>
+            </div>
+            
+            <div class="help-section">
+                <h2>Contact Support</h2>
+                <p>Need more help? Contact our support team:</p>
+                <p>Email: support@filesharing.example.com</p>
+                <p>Phone: (555) 123-4567</p>
+                <p>Hours: Monday-Friday, 9 AM - 5 PM</p>
+            </div>
+        {% endif %}
+
+        
+  
+    
+{% endblock %}

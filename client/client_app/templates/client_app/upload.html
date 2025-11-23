@@ -1,0 +1,306 @@
+{% extends "client_app/base.html" %}
+
+{% block title %}Upload File{% endblock %}
+
+{% block content %}
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #4CAF50;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            color: #555;
+        }
+
+        input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        /* Progress Bar */
+        .progress {
+            background-color: #f3f3f3;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .progress-bar {
+            background-color: #4CAF50;
+            height: 30px;
+            line-height: 30px;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .d-flex {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5px;
+        }
+
+        .d-flex small {
+            font-size: 14px;
+            color: #555;
+        }
+
+        /* Status Messages */
+        .alert {
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+
+        .alert-success {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .alert-danger {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .alert-warning {
+            background-color: #ff9800;
+            color: white;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            button {
+                padding: 10px;
+            }
+
+            .progress-bar {
+                height: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload a File</h1>
+
+    <div class="container mt-5">
+        <h2>Upload File</h2>
+        
+        <div class="card">
+            <div class="card-body">
+                <form id="upload-form" method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <label for="file">Select file to upload:</label>
+                        <input type="file" class="form-control-file" id="file" name="file" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-3">Upload</button>
+                </form>
+                
+                <!-- Progress bar container (hidden by default) -->
+                <div id="progress-container" class="mt-4" style="display: none;">
+                    <h5>Uploading: <span id="file-name"></span></h5>
+                    <div class="progress">
+                        <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated" 
+                             role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" 
+                             style="width: 0%">0%</div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-1">
+                        <small id="transfer-status">0 KB / 0 KB</small>
+                        <small id="transfer-speed">0 KB/s</small>
+                    </div>
+                </div>
+                
+                <!-- Status message container -->
+                <div id="status-message" class="alert mt-3" style="display: none;"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.getElementById('upload-form');
+        const progressContainer = document.getElementById('progress-container');
+        const progressBar = document.getElementById('progress-bar');
+        const fileName = document.getElementById('file-name');
+        const transferStatus = document.getElementById('transfer-status');
+        const transferSpeed = document.getElementById('transfer-speed');
+        const statusMessage = document.getElementById('status-message');
+        
+        let startTime;
+        let uploadedSize = 0;
+        let fileSize = 0;
+        
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get the selected file
+            const fileInput = document.getElementById('file');
+            const file = fileInput.files[0];
+            
+            if (!file) {
+                showStatus('Please select a file first.', 'warning');
+                return;
+            }
+            
+            // Set up variables for progress tracking
+            fileName.textContent = file.name;
+            fileSize = file.size;
+            uploadedSize = 0;
+            startTime = new Date().getTime();
+            
+            // Show the progress container
+            progressContainer.style.display = 'block';
+            statusMessage.style.display = 'none';
+            
+            // Create FormData object
+            const formData = new FormData(form);
+            
+            // Set up the AJAX request
+            const xhr = new XMLHttpRequest();
+            
+            // Track upload progress
+            xhr.upload.addEventListener('progress', function(e) {
+                if (e.lengthComputable) {
+                    uploadedSize = e.loaded;
+                    let percent = Math.round((uploadedSize / fileSize) * 100);
+                    
+                    // Ensure percent doesn't exceed 100
+                    if (percent > 100) {
+                        percent = 100;
+                    }
+            
+                    // Update progress bar
+                    progressBar.style.width = percent + '%';
+                    progressBar.textContent = percent + '%';
+                    progressBar.setAttribute('aria-valuenow', percent);
+            
+                    // Update status text
+                    transferStatus.textContent = `${formatSize(uploadedSize)} / ${formatSize(fileSize)}`;
+            
+                    // Calculate and display transfer speed
+                    const currentTime = new Date().getTime();
+                    const elapsedTime = (currentTime - startTime) / 1000; // seconds
+                    if (elapsedTime > 0) {
+                        const speed = uploadedSize / elapsedTime; // bytes per second
+                        transferSpeed.textContent = `${formatSize(speed)}/s`;
+                    }
+                }
+            });
+            
+            xhr.addEventListener('load', function() {
+                // Make sure the progress bar finishes at 100% once the upload is complete
+                progressBar.style.width = '100%';
+                progressBar.textContent = '100%';
+                progressBar.setAttribute('aria-valuenow', 100);
+                transferStatus.textContent = `${formatSize(fileSize)} / ${formatSize(fileSize)}`;
+                transferSpeed.textContent = '0 KB/s';  // Reset speed as upload is finished
+            
+                // Handle server response
+                if (xhr.status === 200) {
+                    try {
+                        const response = JSON.parse(xhr.responseText);
+                        if (response.status === 'success') {
+                            showStatus(response.message, 'success');
+                        } else {
+                            showStatus(response.message, 'danger');
+                        }
+                    } catch (e) {
+                        showStatus('Upload completed but server response was invalid', 'warning');
+                    }
+                } else {
+                    showStatus('Upload failed: ' + xhr.statusText, 'danger');
+                }
+            });
+            
+            
+            // Handle abort
+            xhr.addEventListener('abort', function() {
+                showStatus('Upload aborted', 'warning');
+            });
+            
+            // Send the request
+            xhr.open('POST', form.action || window.location.href, true);
+            xhr.send(formData);
+        });
+        
+        // Format bytes to human-readable size
+        function formatSize(bytes) {
+            if (bytes === 0) return '0 Bytes';
+            
+            const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+            const i = Math.floor(Math.log(bytes) / Math.log(1024));
+            
+            return parseFloat((bytes / Math.pow(1024, i)).toFixed(2)) + ' ' + sizes[i];
+        }
+        
+        // Show status message
+        function showStatus(message, type) {
+            statusMessage.textContent = message;
+            statusMessage.className = 'alert mt-3 alert-' + type;
+            statusMessage.style.display = 'block';
+        }
+    });
+   
+    
+    </script>
+{% endblock %}

@@ -1,0 +1,90 @@
+<!-- home.html -->
+ <!-- All temlplates done by Omar -->
+{% extends "client_app/base.html" %}
+
+{% block title %}File Sharing Home{% endblock %}
+
+{% block content %}
+    <h1 style="text-align: center; margin-bottom: 20px;">Welcome to the File Sharing System</h1>
+
+    <div class="action-container">
+        <a href="{% url 'upload_file' %}" class="btn btn-primary">Upload File</a>
+        <a href="{% url 'list_files' %}" class="btn btn-primary">Browse Server Files</a>
+        <a href="{% url 'Help' %}" class="btn btn-primary">Help</a>
+    </div>
+
+    <h2>Local Files</h2>
+    
+    {% if files %}
+        <table>
+            <thead>
+                <tr>
+                    <th>File Name</th>
+                    <th>Size</th>
+                    <th>Last Modified</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for file in files %}
+                    <tr>
+                        <td>
+                            {% if file.name %}
+                                {{ file.name }}
+                            {% else %}
+                                {{ file }}
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if file.size %}
+                                {{ file.size }}
+                            {% else %}
+                                Unknown
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if file.modified %}
+                                {{ file.modified }}
+                            {% else %}
+                                Unknown
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if file.status == 'complete' %}
+                                <span class="status-complete">Complete</span>
+                            {% elif file.status == 'incomplete' %}
+                                <span class="status-incomplete">Incomplete</span>
+                            {% elif file.status == 'corrupted' %}
+                                <span class="status-corrupted">Corrupted</span>
+                            {% else %}
+                                <span class="status-unknown">Unknown</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                {% empty %}
+                    <tr>
+                        <td colspan="4" style="text-align: center;">No files available locally.</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p style="text-align: center;">No files available locally.</p>
+    {% endif %}
+
+    {% if user.is_authenticated %}
+        <div class="user-auth-container">
+            <p>Logged in as: <strong>{{ user.username }}</strong></p>
+            <form method="POST" action="{% url 'logout' %}" style="margin-top: 15px;">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-danger">Logout</button>
+            </form>
+        </div>
+    {% else %}
+        <div class="user-auth-container">
+            <p style="margin-bottom: 15px;">Please log in to access all features</p>
+            <a href="{% url 'login' %}" class="btn btn-primary">Login</a>
+            <a href="{% url 'register' %}" class="btn btn-primary">Register</a>
+        </div>
+    {% endif %}
+{% endblock %}

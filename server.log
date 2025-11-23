@@ -1,0 +1,291 @@
+2025-04-28 04:08:31,042 - INFO - [COMMAND] ('127.0.0.1', 57825): UPLOAD
+2025-04-28 04:08:31,043 - INFO - Found 0 existing version(s) of ORGAN (1).docx
+2025-04-28 04:08:31,051 - INFO - Starting file upload: ORGAN (1).docx (11055 bytes)
+2025-04-28 04:08:31,062 - INFO - File 'ORGAN (1).docx' uploaded successfully. First version of this file.
+2025-04-28 04:08:35,686 - INFO - [COMMAND] ('127.0.0.1', 57825): LIST
+2025-04-28 04:08:36,975 - INFO - [COMMAND] ('127.0.0.1', 57825): DELETE
+2025-04-28 04:08:38,892 - INFO - [COMMAND] ('127.0.0.1', 57825): LIST
+2025-04-28 04:08:42,636 - INFO - [COMMAND] ('127.0.0.1', 57825): LIST
+2025-04-28 04:12:14,265 - ERROR - [DISCONNECTED] ('127.0.0.1', 57825) disconnected unexpectedly.
+2025-04-28 04:12:14,265 - INFO - [DISCONNECTED] ('127.0.0.1', 57825) disconnected
+2025-04-28 04:12:27,965 - INFO - [NEW CONNECTION] ('127.0.0.1', 57931) connected.
+2025-04-28 04:12:27,965 - INFO - [ACTIVE CONNECTIONS] 1
+2025-04-28 04:12:27,971 - INFO - [COMMAND] ('127.0.0.1', 57931): LIST
+2025-04-28 04:13:34,086 - INFO - [COMMAND] ('127.0.0.1', 57931): LIST
+2025-04-28 04:13:37,580 - INFO - [COMMAND] ('127.0.0.1', 57931): LIST
+2025-04-28 04:15:02,991 - INFO - [COMMAND] ('127.0.0.1', 57931): LIST
+2025-04-28 04:15:12,846 - INFO - [COMMAND] ('127.0.0.1', 57931): UPLOAD
+2025-04-28 04:15:12,847 - INFO - Found 0 existing version(s) of test.txt
+2025-04-28 04:15:12,849 - INFO - Starting file upload: test.txt (0 bytes)
+2025-04-28 04:15:12,851 - INFO - File 'test.txt' uploaded successfully. First version of this file.
+2025-04-28 04:15:16,743 - INFO - [COMMAND] ('127.0.0.1', 57931): LIST
+2025-04-28 04:15:25,987 - INFO - [COMMAND] ('127.0.0.1', 57931): UPLOAD
+2025-04-28 04:15:25,988 - INFO - Found 1 existing version(s) of test.txt
+2025-04-28 04:15:25,989 - INFO - File 'test.txt' already exists. Saving as 'test_v1.txt' (Version 1 of 2)
+2025-04-28 04:15:25,992 - INFO - Starting file upload: test_v1.txt (0 bytes)
+2025-04-28 04:15:25,996 - INFO - File 'test.txt' uploaded as 'test_v1.txt' successfully. Version 1 of 2 total versions
+2025-04-28 04:15:29,072 - INFO - [COMMAND] ('127.0.0.1', 57931): LIST
+2025-04-28 04:16:08,559 - INFO - [COMMAND] ('127.0.0.1', 57931): UPLOAD
+2025-04-28 04:16:08,560 - INFO - Found 2 existing version(s) of test.txt
+2025-04-28 04:16:08,561 - INFO - File 'test.txt' already exists. Saving as 'test_v2.txt' (Version 2 of 3)
+2025-04-28 04:16:08,564 - INFO - Starting file upload: test_v2.txt (0 bytes)
+2025-04-28 04:16:08,575 - INFO - File 'test.txt' uploaded as 'test_v2.txt' successfully. Version 2 of 3 total versions
+2025-04-28 04:16:10,631 - INFO - [COMMAND] ('127.0.0.1', 57931): LIST
+2025-04-28 04:16:35,836 - INFO - [COMMAND] ('127.0.0.1', 57931): UPLOAD
+2025-04-28 04:16:35,837 - INFO - Found 3 existing version(s) of test.txt
+2025-04-28 04:16:35,837 - INFO - File 'test.txt' already exists. Saving as 'test_v3.txt' (Version 3 of 4)
+2025-04-28 04:16:35,842 - INFO - Starting file upload: test_v3.txt (0 bytes)
+2025-04-28 04:16:35,846 - INFO - File 'test.txt' uploaded as 'test_v3.txt' successfully. Version 3 of 4 total versions
+2025-04-28 04:16:38,692 - INFO - [COMMAND] ('127.0.0.1', 57931): LIST
+2025-04-28 04:16:42,847 - INFO - [COMMAND] ('127.0.0.1', 57931): DOWNLOAD
+2025-04-28 04:16:42,851 - INFO - Starting file download to client: test.txt from byte 0
+2025-04-28 04:16:42,853 - INFO - Finished file download to client: test.txt
+2025-04-28 04:16:50,093 - INFO - [COMMAND] ('127.0.0.1', 57931): DOWNLOAD
+2025-04-28 04:16:50,097 - INFO - Starting file download to client: test_v3.txt from byte 0
+2025-04-28 04:16:50,098 - INFO - Finished file download to client: test_v3.txt
+2025-04-28 04:17:08,066 - INFO - [COMMAND] ('127.0.0.1', 57931): DOWNLOAD
+2025-04-28 04:17:08,070 - INFO - Starting file download to client: test.txt from byte 0
+2025-04-28 04:17:08,071 - INFO - Finished file download to client: test.txt
+2025-04-28 04:17:13,641 - INFO - [COMMAND] ('127.0.0.1', 57931): DOWNLOAD
+2025-04-28 04:17:13,647 - INFO - Starting file download to client: test_v3.txt from byte 0
+2025-04-28 04:17:13,648 - INFO - Finished file download to client: test_v3.txt
+2025-04-28 04:17:19,904 - INFO - [COMMAND] ('127.0.0.1', 57931): DELETE
+2025-04-28 04:17:23,265 - INFO - [COMMAND] ('127.0.0.1', 57931): LIST
+2025-04-28 04:17:24,069 - INFO - [COMMAND] ('127.0.0.1', 57931): DELETE
+2025-04-28 04:17:24,980 - INFO - [COMMAND] ('127.0.0.1', 57931): LIST
+2025-04-28 04:17:25,785 - INFO - [COMMAND] ('127.0.0.1', 57931): DELETE
+2025-04-28 04:17:26,709 - INFO - [COMMAND] ('127.0.0.1', 57931): LIST
+2025-04-28 04:17:27,485 - INFO - [COMMAND] ('127.0.0.1', 57931): DELETE
+2025-04-28 04:18:22,504 - INFO - [COMMAND] ('127.0.0.1', 57931): UPLOAD
+2025-04-28 04:18:22,505 - INFO - Found 0 existing version(s) of omar.txt
+2025-04-28 04:18:22,509 - INFO - Starting file upload: omar.txt (18 bytes)
+2025-04-28 04:18:22,515 - INFO - File 'omar.txt' uploaded successfully. First version of this file.
+2025-04-28 04:18:25,635 - INFO - [COMMAND] ('127.0.0.1', 57931): LIST
+2025-04-28 04:18:26,630 - INFO - [COMMAND] ('127.0.0.1', 57931): DOWNLOAD
+2025-04-28 04:18:26,634 - INFO - Starting file download to client: omar.txt from byte 0
+2025-04-28 04:18:26,636 - INFO - Finished file download to client: omar.txt
+2025-04-28 04:18:55,820 - INFO - [COMMAND] ('127.0.0.1', 57931): UPLOAD
+2025-04-28 04:18:55,821 - INFO - Found 1 existing version(s) of omar.txt
+2025-04-28 04:18:55,822 - INFO - File 'omar.txt' already exists. Saving as 'omar_v1.txt' (Version 1 of 2)
+2025-04-28 04:18:55,842 - INFO - Starting file upload: omar_v1.txt (27 bytes)
+2025-04-28 04:18:55,847 - INFO - File 'omar.txt' uploaded as 'omar_v1.txt' successfully. Version 1 of 2 total versions
+2025-04-28 04:18:58,718 - INFO - [COMMAND] ('127.0.0.1', 57931): LIST
+2025-04-28 04:19:01,596 - INFO - [COMMAND] ('127.0.0.1', 57931): DOWNLOAD
+2025-04-28 04:19:01,600 - INFO - Starting file download to client: omar_v1.txt from byte 0
+2025-04-28 04:19:01,602 - INFO - Finished file download to client: omar_v1.txt
+2025-04-28 04:19:06,287 - INFO - [COMMAND] ('127.0.0.1', 57931): DOWNLOAD
+2025-04-28 04:19:06,292 - INFO - Starting file download to client: omar.txt from byte 0
+2025-04-28 04:19:06,295 - INFO - Finished file download to client: omar.txt
+2025-04-28 04:29:14,674 - INFO - [COMMAND] ('127.0.0.1', 57931): LOGOUT
+2025-04-28 04:29:14,675 - INFO - [LOGOUT] ('127.0.0.1', 57931) requested logout
+2025-04-28 04:29:14,677 - INFO - [DISCONNECTED] ('127.0.0.1', 57931) disconnected
+2025-04-28 04:33:32,430 - INFO - [NEW CONNECTION] ('127.0.0.1', 58114) connected.
+2025-04-28 04:33:32,431 - INFO - [ACTIVE CONNECTIONS] 1
+2025-04-28 04:33:32,434 - INFO - [COMMAND] ('127.0.0.1', 58114): LIST
+2025-04-28 04:33:36,609 - INFO - [COMMAND] ('127.0.0.1', 58114): LIST
+2025-04-28 04:33:37,905 - INFO - [COMMAND] ('127.0.0.1', 58114): DOWNLOAD
+2025-04-28 04:33:37,910 - INFO - Starting file download to client: omar.txt from byte 0
+2025-04-28 04:33:37,911 - INFO - Finished file download to client: omar.txt
+2025-04-28 04:34:03,529 - INFO - [COMMAND] ('127.0.0.1', 58114): LOGOUT
+2025-04-28 04:34:03,530 - INFO - [LOGOUT] ('127.0.0.1', 58114) requested logout
+2025-04-28 04:34:03,532 - INFO - [DISCONNECTED] ('127.0.0.1', 58114) disconnected
+2025-04-28 04:36:19,103 - INFO - [NEW CONNECTION] ('127.0.0.1', 58120) connected.
+2025-04-28 04:36:19,104 - INFO - [ACTIVE CONNECTIONS] 1
+2025-04-28 04:36:19,109 - INFO - [COMMAND] ('127.0.0.1', 58120): LIST
+2025-04-28 04:36:22,142 - INFO - [COMMAND] ('127.0.0.1', 58120): DOWNLOAD
+2025-04-28 04:36:22,146 - INFO - Starting file download to client: omar.txt from byte 0
+2025-04-28 04:36:22,149 - INFO - Finished file download to client: omar.txt
+2025-04-28 04:36:24,005 - INFO - [COMMAND] ('127.0.0.1', 58120): DOWNLOAD
+2025-04-28 04:36:24,013 - INFO - Starting file download to client: omar.txt from byte 0
+2025-04-28 04:36:24,017 - INFO - Finished file download to client: omar.txt
+2025-04-28 04:36:53,155 - INFO - [COMMAND] ('127.0.0.1', 58120): LIST
+2025-04-28 04:36:54,850 - INFO - [COMMAND] ('127.0.0.1', 58120): LIST
+2025-04-28 04:37:00,797 - INFO - [COMMAND] ('127.0.0.1', 58120): DELETE
+2025-04-28 04:37:03,624 - INFO - [COMMAND] ('127.0.0.1', 58120): DELETE
+2025-04-28 04:37:05,494 - INFO - [COMMAND] ('127.0.0.1', 58120): LIST
+2025-04-28 04:41:40,873 - ERROR - [DISCONNECTED] ('127.0.0.1', 58120) disconnected unexpectedly.
+2025-04-28 04:41:40,874 - INFO - [DISCONNECTED] ('127.0.0.1', 58120) disconnected
+2025-04-28 04:53:51,027 - INFO - [NEW CONNECTION] ('127.0.0.1', 58366) connected.
+2025-04-28 04:53:51,027 - INFO - [ACTIVE CONNECTIONS] 1
+2025-04-28 04:53:51,031 - INFO - [COMMAND] ('127.0.0.1', 58366): LIST
+2025-04-28 04:53:51,038 - INFO - [COMMAND] ('127.0.0.1', 58366): LOGOUT
+2025-04-28 04:53:51,039 - INFO - [LOGOUT] ('127.0.0.1', 58366) requested logout
+2025-04-28 04:53:51,042 - INFO - [DISCONNECTED] ('127.0.0.1', 58366) disconnected
+2025-04-28 04:56:49,155 - INFO - [NEW CONNECTION] ('127.0.0.1', 58394) connected.
+2025-04-28 04:56:49,155 - INFO - [ACTIVE CONNECTIONS] 1
+2025-04-28 04:56:49,159 - INFO - [COMMAND] ('127.0.0.1', 58394): LIST
+2025-04-28 04:56:49,166 - INFO - [COMMAND] ('127.0.0.1', 58394): LOGOUT
+2025-04-28 04:56:49,167 - INFO - [LOGOUT] ('127.0.0.1', 58394) requested logout
+2025-04-28 04:56:49,171 - INFO - [DISCONNECTED] ('127.0.0.1', 58394) disconnected
+2025-04-28 04:56:51,626 - INFO - [NEW CONNECTION] ('127.0.0.1', 58397) connected.
+2025-04-28 04:56:51,627 - INFO - [ACTIVE CONNECTIONS] 1
+2025-04-28 04:56:51,631 - INFO - [COMMAND] ('127.0.0.1', 58397): HELP
+2025-04-28 04:56:56,568 - INFO - [COMMAND] ('127.0.0.1', 58397): LIST
+2025-04-28 04:56:56,573 - INFO - [COMMAND] ('127.0.0.1', 58397): LOGOUT
+2025-04-28 04:56:56,573 - INFO - [LOGOUT] ('127.0.0.1', 58397) requested logout
+2025-04-28 04:56:56,576 - INFO - [DISCONNECTED] ('127.0.0.1', 58397) disconnected
+2025-04-28 04:56:59,349 - INFO - [NEW CONNECTION] ('127.0.0.1', 58398) connected.
+2025-04-28 04:56:59,350 - INFO - [ACTIVE CONNECTIONS] 1
+2025-04-28 04:56:59,354 - INFO - [COMMAND] ('127.0.0.1', 58398): LIST
+2025-04-28 04:56:59,366 - INFO - [COMMAND] ('127.0.0.1', 58398): LOGOUT
+2025-04-28 04:56:59,367 - INFO - [LOGOUT] ('127.0.0.1', 58398) requested logout
+2025-04-28 04:56:59,371 - INFO - [DISCONNECTED] ('127.0.0.1', 58398) disconnected
+2025-04-28 04:57:56,449 - INFO - [NEW CONNECTION] ('127.0.0.1', 58407) connected.
+2025-04-28 04:57:56,449 - INFO - [ACTIVE CONNECTIONS] 1
+2025-04-28 04:57:56,452 - INFO - [COMMAND] ('127.0.0.1', 58407): LIST
+2025-04-28 04:57:56,458 - INFO - [COMMAND] ('127.0.0.1', 58407): LOGOUT
+2025-04-28 04:57:56,459 - INFO - [LOGOUT] ('127.0.0.1', 58407) requested logout
+2025-04-28 04:57:56,462 - INFO - [DISCONNECTED] ('127.0.0.1', 58407) disconnected
+2025-04-28 05:04:26,544 - INFO - [NEW CONNECTION] ('127.0.0.1', 58467) connected.
+2025-04-28 05:04:26,545 - INFO - [ACTIVE CONNECTIONS] 1
+2025-04-28 05:04:26,552 - INFO - [COMMAND] ('127.0.0.1', 58467): LIST
+2025-04-28 05:06:11,779 - INFO - [COMMAND] ('127.0.0.1', 58467): UPLOAD
+2025-04-28 05:06:11,780 - INFO - Found 0 existing version(s) of omar.txt
+2025-04-28 05:06:11,784 - INFO - Starting file upload: omar.txt (18 bytes)
+2025-04-28 05:06:11,790 - INFO - File 'omar.txt' uploaded successfully. First version of this file.
+2025-04-28 05:06:19,370 - INFO - [COMMAND] ('127.0.0.1', 58467): LIST
+2025-04-28 05:07:03,456 - INFO - [COMMAND] ('127.0.0.1', 58467): UPLOAD
+2025-04-28 05:07:03,456 - INFO - Found 0 existing version(s) of PHASE3.docx
+2025-04-28 05:07:03,566 - INFO - Starting file upload: PHASE3.docx (1597006 bytes)
+2025-04-28 05:07:03,682 - INFO - File 'PHASE3.docx' uploaded successfully. First version of this file.
+2025-04-28 05:07:08,741 - INFO - [COMMAND] ('127.0.0.1', 58467): LIST
+2025-04-28 05:09:15,855 - ERROR - [DISCONNECTED] ('127.0.0.1', 58467) disconnected unexpectedly.
+2025-04-28 05:09:15,855 - INFO - [DISCONNECTED] ('127.0.0.1', 58467) disconnected
+2025-04-28 05:09:22,533 - INFO - [NEW CONNECTION] ('127.0.0.1', 58520) connected.
+2025-04-28 05:09:22,533 - INFO - [ACTIVE CONNECTIONS] 1
+2025-04-28 05:09:22,540 - INFO - [COMMAND] ('127.0.0.1', 58520): LIST
+2025-04-28 05:09:30,306 - INFO - [COMMAND] ('127.0.0.1', 58520): UPLOAD
+2025-04-28 05:09:30,307 - INFO - Found 1 existing version(s) of omar.txt
+2025-04-28 05:09:30,308 - INFO - File 'omar.txt' already exists. Saving as 'omar_v1.txt' (Version 1 of 2)
+2025-04-28 05:09:30,313 - INFO - Starting file upload: omar_v1.txt (18 bytes)
+2025-04-28 05:09:30,319 - INFO - File 'omar.txt' uploaded as 'omar_v1.txt' successfully. Version 1 of 2 total versions
+2025-04-28 05:09:34,281 - INFO - [COMMAND] ('127.0.0.1', 58520): LIST
+2025-04-28 05:11:54,558 - ERROR - [DISCONNECTED] ('127.0.0.1', 58520) disconnected unexpectedly.
+2025-04-28 05:11:54,559 - INFO - [DISCONNECTED] ('127.0.0.1', 58520) disconnected
+2025-04-28 05:12:00,433 - INFO - [NEW CONNECTION] ('127.0.0.1', 58549) connected.
+2025-04-28 05:12:00,434 - INFO - [ACTIVE CONNECTIONS] 1
+2025-04-28 05:12:00,437 - INFO - [COMMAND] ('127.0.0.1', 58549): LIST
+2025-04-28 05:12:01,498 - INFO - [COMMAND] ('127.0.0.1', 58549): LIST
+2025-04-28 05:12:01,728 - INFO - [COMMAND] ('127.0.0.1', 58549): LIST
+2025-04-28 05:12:01,901 - INFO - [COMMAND] ('127.0.0.1', 58549): LIST
+2025-04-28 05:12:02,076 - INFO - [COMMAND] ('127.0.0.1', 58549): LIST
+2025-04-28 05:12:02,236 - INFO - [COMMAND] ('127.0.0.1', 58549): LIST
+2025-04-28 05:12:02,413 - INFO - [COMMAND] ('127.0.0.1', 58549): LIST
+2025-04-28 05:12:05,987 - INFO - [COMMAND] ('127.0.0.1', 58549): DELETE
+2025-04-28 05:12:15,606 - INFO - [COMMAND] ('127.0.0.1', 58549): LIST
+2025-04-28 05:12:17,824 - INFO - [COMMAND] ('127.0.0.1', 58549): DELETE
+2025-04-28 05:12:23,590 - INFO - [COMMAND] ('127.0.0.1', 58549): LIST
+2025-04-28 05:12:25,477 - INFO - [COMMAND] ('127.0.0.1', 58549): DELETE
+2025-04-28 05:12:29,890 - INFO - [COMMAND] ('127.0.0.1', 58549): LIST
+2025-04-28 05:12:36,055 - INFO - [COMMAND] ('127.0.0.1', 58549): UPLOAD
+2025-04-28 05:12:36,056 - INFO - Found 0 existing version(s) of omar.txt
+2025-04-28 05:12:36,059 - INFO - Starting file upload: omar.txt (18 bytes)
+2025-04-28 05:12:36,064 - INFO - File 'omar.txt' uploaded successfully. First version of this file.
+2025-04-28 05:12:40,561 - INFO - [COMMAND] ('127.0.0.1', 58549): LIST
+2025-04-28 05:13:46,426 - ERROR - [DISCONNECTED] ('127.0.0.1', 58549) disconnected unexpectedly.
+2025-04-28 05:13:46,426 - INFO - [DISCONNECTED] ('127.0.0.1', 58549) disconnected
+2025-04-28 05:14:44,303 - INFO - [NEW CONNECTION] ('127.0.0.1', 58563) connected.
+2025-04-28 05:14:44,304 - INFO - [ACTIVE CONNECTIONS] 1
+2025-04-28 05:14:44,307 - INFO - [COMMAND] ('127.0.0.1', 58563): LIST
+2025-04-28 05:19:53,701 - ERROR - [DISCONNECTED] ('127.0.0.1', 58563) disconnected unexpectedly.
+2025-04-28 05:19:53,701 - INFO - [DISCONNECTED] ('127.0.0.1', 58563) disconnected
+2025-04-28 05:20:33,090 - INFO - [NEW CONNECTION] ('127.0.0.1', 58618) connected.
+2025-04-28 05:20:33,090 - INFO - [ACTIVE CONNECTIONS] 1
+2025-04-28 05:20:33,094 - INFO - [COMMAND] ('127.0.0.1', 58618): UPLOAD
+2025-04-28 05:20:33,096 - INFO - Found 0 existing version(s) of omar (2).txt
+2025-04-28 05:20:33,102 - INFO - Starting file upload: omar (2).txt (18 bytes)
+2025-04-28 05:20:33,108 - INFO - File 'omar (2).txt' uploaded successfully. First version of this file.
+2025-04-28 05:20:42,945 - INFO - [COMMAND] ('127.0.0.1', 58618): LIST
+2025-04-28 05:20:51,698 - INFO - [COMMAND] ('127.0.0.1', 58618): LIST
+2025-04-28 05:21:02,869 - INFO - [COMMAND] ('127.0.0.1', 58618): LIST
+2025-04-28 05:21:04,486 - INFO - [COMMAND] ('127.0.0.1', 58618): LIST
+2025-04-28 05:23:19,696 - INFO - [COMMAND] ('127.0.0.1', 58618): LIST
+2025-04-28 05:25:30,175 - ERROR - [DISCONNECTED] ('127.0.0.1', 58618) disconnected unexpectedly.
+2025-04-28 05:25:30,177 - INFO - [DISCONNECTED] ('127.0.0.1', 58618) disconnected
+2025-04-28 05:28:22,329 - INFO - [NEW CONNECTION] ('127.0.0.1', 58685) connected.
+2025-04-28 05:28:22,330 - INFO - [ACTIVE CONNECTIONS] 1
+2025-04-28 05:28:22,334 - INFO - [COMMAND] ('127.0.0.1', 58685): LIST
+2025-04-28 05:34:37,482 - INFO - [COMMAND] ('127.0.0.1', 58685): LIST
+2025-04-28 05:34:42,970 - INFO - [COMMAND] ('127.0.0.1', 58685): LIST
+2025-04-28 05:34:44,897 - INFO - [COMMAND] ('127.0.0.1', 58685): DELETE
+2025-04-28 05:34:50,723 - INFO - [COMMAND] ('127.0.0.1', 58685): LIST
+2025-04-28 05:35:08,514 - INFO - [COMMAND] ('127.0.0.1', 58685): LIST
+2025-04-28 05:35:09,630 - INFO - [COMMAND] ('127.0.0.1', 58685): DOWNLOAD
+2025-04-28 05:35:09,635 - INFO - Starting file download to client: omar.txt from byte 0
+2025-04-28 05:35:09,636 - INFO - Finished file download to client: omar.txt
+2025-04-28 05:45:30,896 - INFO - [COMMAND] ('127.0.0.1', 58685): LOGOUT
+2025-04-28 05:45:30,897 - INFO - [LOGOUT] ('127.0.0.1', 58685) requested logout
+2025-04-28 05:45:30,901 - INFO - [DISCONNECTED] ('127.0.0.1', 58685) disconnected
+2025-04-28 05:47:37,274 - INFO - [NEW CONNECTION] ('127.0.0.1', 58830) connected.
+2025-04-28 05:47:37,275 - INFO - [ACTIVE CONNECTIONS] 1
+2025-04-28 05:47:37,278 - INFO - [COMMAND] ('127.0.0.1', 58830): LIST
+2025-04-28 05:47:43,320 - INFO - [COMMAND] ('127.0.0.1', 58830): LIST
+2025-04-28 05:47:51,811 - INFO - [COMMAND] ('127.0.0.1', 58830): LIST
+2025-04-28 05:49:18,345 - INFO - [COMMAND] ('127.0.0.1', 58830): LOGOUT
+2025-04-28 05:49:18,346 - INFO - [LOGOUT] ('127.0.0.1', 58830) requested logout
+2025-04-28 05:49:18,348 - INFO - [DISCONNECTED] ('127.0.0.1', 58830) disconnected
+2025-04-28 05:49:52,567 - INFO - [NEW CONNECTION] ('127.0.0.1', 58843) connected.
+2025-04-28 05:49:52,567 - INFO - [ACTIVE CONNECTIONS] 1
+2025-04-28 05:49:52,571 - INFO - [COMMAND] ('127.0.0.1', 58843): LIST
+2025-04-28 05:55:26,091 - INFO - [COMMAND] ('127.0.0.1', 58843): UPLOAD
+2025-04-28 05:55:26,092 - INFO - Found 0 existing version(s) of omar_v1 (2).txt
+2025-04-28 05:55:26,097 - INFO - Starting file upload: omar_v1 (2).txt (18 bytes)
+2025-04-28 05:55:26,103 - INFO - File 'omar_v1 (2).txt' uploaded successfully. First version of this file.
+2025-04-28 05:57:28,262 - INFO - [COMMAND] ('127.0.0.1', 58843): UPLOAD
+2025-04-28 05:57:28,264 - INFO - Found 2 existing version(s) of omar.txt
+2025-04-28 05:57:28,264 - INFO - File 'omar.txt' already exists. Saving as 'omar_v1.txt' (Version 1 of 3)
+2025-04-28 05:57:28,270 - INFO - Starting file upload: omar_v1.txt (18 bytes)
+2025-04-28 05:57:28,276 - INFO - File 'omar.txt' uploaded as 'omar_v1.txt' successfully. Version 1 of 3 total versions
+2025-04-28 05:57:38,889 - INFO - [COMMAND] ('127.0.0.1', 58843): LIST
+2025-04-28 05:57:41,184 - INFO - [COMMAND] ('127.0.0.1', 58843): DOWNLOAD
+2025-04-28 05:57:41,191 - INFO - Starting file download to client: omar.txt from byte 0
+2025-04-28 05:57:41,193 - INFO - Finished file download to client: omar.txt
+2025-04-28 05:57:44,605 - INFO - [COMMAND] ('127.0.0.1', 58843): HELP
+2025-04-28 05:58:16,153 - INFO - [COMMAND] ('127.0.0.1', 58843): HELP
+2025-04-28 05:58:20,621 - INFO - [COMMAND] ('127.0.0.1', 58843): HELP
+2025-04-28 05:59:09,204 - INFO - [COMMAND] ('127.0.0.1', 58843): LIST
+2025-04-28 05:59:10,391 - INFO - [COMMAND] ('127.0.0.1', 58843): HELP
+2025-04-28 05:59:14,469 - INFO - [COMMAND] ('127.0.0.1', 58843): LOGOUT
+2025-04-28 05:59:14,470 - INFO - [LOGOUT] ('127.0.0.1', 58843) requested logout
+2025-04-28 05:59:14,472 - INFO - [DISCONNECTED] ('127.0.0.1', 58843) disconnected
+2025-04-28 05:59:40,357 - INFO - [NEW CONNECTION] ('127.0.0.1', 58931) connected.
+2025-04-28 05:59:40,357 - INFO - [ACTIVE CONNECTIONS] 1
+2025-04-28 05:59:40,364 - INFO - [COMMAND] ('127.0.0.1', 58931): HELP
+2025-04-28 05:59:50,448 - INFO - [COMMAND] ('127.0.0.1', 58931): HELP
+2025-04-28 06:00:04,290 - INFO - [COMMAND] ('127.0.0.1', 58931): LIST
+2025-04-28 06:00:09,946 - INFO - [COMMAND] ('127.0.0.1', 58931): DELETE
+2025-04-28 06:00:14,558 - INFO - [COMMAND] ('127.0.0.1', 58931): LIST
+2025-04-28 06:00:18,191 - INFO - [COMMAND] ('127.0.0.1', 58931): LIST
+2025-04-28 06:00:21,102 - INFO - [COMMAND] ('127.0.0.1', 58931): DELETE
+2025-04-28 06:00:23,159 - INFO - [COMMAND] ('127.0.0.1', 58931): LIST
+2025-04-28 06:02:55,127 - INFO - [COMMAND] ('127.0.0.1', 58931): LOGOUT
+2025-04-28 06:02:55,128 - INFO - [LOGOUT] ('127.0.0.1', 58931) requested logout
+2025-04-28 06:02:55,130 - INFO - [DISCONNECTED] ('127.0.0.1', 58931) disconnected
+2025-04-28 06:03:27,318 - INFO - [NEW CONNECTION] ('127.0.0.1', 58949) connected.
+2025-04-28 06:03:27,319 - INFO - [ACTIVE CONNECTIONS] 1
+2025-04-28 06:03:27,323 - INFO - [COMMAND] ('127.0.0.1', 58949): UPLOAD
+2025-04-28 06:03:27,324 - INFO - Found 1 existing version(s) of omar.txt
+2025-04-28 06:03:27,324 - INFO - File 'omar.txt' already exists. Saving as 'omar_v1.txt' (Version 1 of 2)
+2025-04-28 06:03:27,328 - INFO - Starting file upload: omar_v1.txt (18 bytes)
+2025-04-28 06:03:27,334 - INFO - File 'omar.txt' uploaded as 'omar_v1.txt' successfully. Version 1 of 2 total versions
+2025-04-28 06:03:31,133 - INFO - [COMMAND] ('127.0.0.1', 58949): LIST
+2025-04-28 06:03:34,289 - INFO - [COMMAND] ('127.0.0.1', 58949): DELETE
+2025-04-28 06:04:29,355 - INFO - [COMMAND] ('127.0.0.1', 58949): HELP
+2025-04-28 06:07:41,307 - INFO - [COMMAND] ('127.0.0.1', 58949): LIST
+2025-04-28 06:07:45,352 - INFO - [COMMAND] ('127.0.0.1', 58949): HELP
+2025-04-28 06:09:51,053 - ERROR - [DISCONNECTED] ('127.0.0.1', 58949) disconnected unexpectedly.
+2025-04-28 06:09:51,054 - INFO - [DISCONNECTED] ('127.0.0.1', 58949) disconnected
+2025-04-28 06:10:08,655 - INFO - [NEW CONNECTION] ('127.0.0.1', 59029) connected.
+2025-04-28 06:10:08,656 - INFO - [ACTIVE CONNECTIONS] 1
+2025-04-28 06:10:08,660 - INFO - [COMMAND] ('127.0.0.1', 59029): HELP
+2025-04-28 06:10:24,171 - INFO - [COMMAND] ('127.0.0.1', 59029): HELP
+2025-04-28 06:10:38,603 - INFO - [COMMAND] ('127.0.0.1', 59029): HELP
+2025-04-28 06:20:51,666 - INFO - [COMMAND] ('127.0.0.1', 59029): LOGOUT
+2025-04-28 06:20:51,667 - INFO - [LOGOUT] ('127.0.0.1', 59029) requested logout
+2025-04-28 06:20:51,669 - INFO - [DISCONNECTED] ('127.0.0.1', 59029) disconnected
+2025-04-28 06:48:02,759 - INFO - [NEW CONNECTION] ('127.0.0.1', 59493) connected.
+2025-04-28 06:48:02,759 - INFO - [ACTIVE CONNECTIONS] 1
+2025-04-28 06:48:02,763 - INFO - [COMMAND] ('127.0.0.1', 59493): LIST
+2025-04-28 06:48:08,672 - INFO - [COMMAND] ('127.0.0.1', 59493): HELP
+2025-04-28 06:49:36,685 - ERROR - [DISCONNECTED] ('127.0.0.1', 59493) disconnected unexpectedly.
+2025-04-28 06:49:36,686 - INFO - [DISCONNECTED] ('127.0.0.1', 59493) disconnected
